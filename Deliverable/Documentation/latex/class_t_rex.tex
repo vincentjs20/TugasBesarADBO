@@ -1,0 +1,107 @@
+\hypertarget{class_t_rex}{}\section{T\+Rex Class Reference}
+\label{class_t_rex}\index{T\+Rex@{T\+Rex}}
+Inheritance diagram for T\+Rex\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_t_rex}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{class_t_rex_ac2c1c5682d54b9a34e81a87db7232133}{move\+Speed}
+\item 
+float \hyperlink{class_t_rex_ad3cb47a8543233f79fa0506bf4ab9bf9}{jump\+Force}
+\item 
+bool \hyperlink{class_t_rex_a59fa915657244a351a19a6772868d10b}{is\+Grounded}
+\item 
+Layer\+Mask \hyperlink{class_t_rex_a91eb9e9165522f0f231a8e34f56d5919}{what\+Is\+Ground}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_t_rex_ab9ca989e4ae071cad6a6766be74ff428}{Start} ()
+\item 
+void \hyperlink{class_t_rex_ab15426b15c8f9300d335aaeee5a7a7fc}{Update} ()
+\item 
+void \hyperlink{class_t_rex_a55c1bb4f0e4365269b1022cc9aa4ca8f}{Jump} ()
+\begin{DoxyCompactList}\small\item\em $<$/\+Jump$>$ \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Rigidbody2D \hyperlink{class_t_rex_afe1565632a661b2b0141b23ff2c26494}{t\+Rex\+Rigid\+Body}
+\item 
+Collider2D \hyperlink{class_t_rex_a40c401b1a7d0fd1eddd6947f42da7bb8}{my\+Collider}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+$<$\+T\+Rex$>$ Kelas \hyperlink{class_t_rex}{T\+Rex} berfungsi untuk menangani input dari user dan mengeluarkan output ke layar berupa pergerakan dari \hyperlink{class_t_rex}{T\+Rex} $<$/\+Trex$>$ 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_t_rex_a55c1bb4f0e4365269b1022cc9aa4ca8f}{}\label{class_t_rex_a55c1bb4f0e4365269b1022cc9aa4ca8f} 
+\index{T\+Rex@{T\+Rex}!Jump@{Jump}}
+\index{Jump@{Jump}!T\+Rex@{T\+Rex}}
+\subsubsection{\texorpdfstring{Jump()}{Jump()}}
+{\footnotesize\ttfamily void T\+Rex.\+Jump (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+$<$/\+Jump$>$ 
+
+$<$/\+Jump$>$ Method jump berfungsi untuk menangani kasus jika \hyperlink{class_t_rex}{T\+Rex} ingin meloncat pada saat game sedang berjalan. \hypertarget{class_t_rex_ab9ca989e4ae071cad6a6766be74ff428}{}\label{class_t_rex_ab9ca989e4ae071cad6a6766be74ff428} 
+\index{T\+Rex@{T\+Rex}!Start@{Start}}
+\index{Start@{Start}!T\+Rex@{T\+Rex}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void T\+Rex.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$<$\+Start$>$ Method start berfungsi untuk melakukan inisialisasi pertama pada saat game dimulai. $<$/\+Start$>$ \hypertarget{class_t_rex_ab15426b15c8f9300d335aaeee5a7a7fc}{}\label{class_t_rex_ab15426b15c8f9300d335aaeee5a7a7fc} 
+\index{T\+Rex@{T\+Rex}!Update@{Update}}
+\index{Update@{Update}!T\+Rex@{T\+Rex}}
+\subsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void T\+Rex.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$<$\+Update$>$ Method update berfungsi untuk menangani kasus-\/kasus disaat terjadi perubahan frame pada saat game sedang berjalan. $<$/\+Update$>$ 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_t_rex_a59fa915657244a351a19a6772868d10b}{}\label{class_t_rex_a59fa915657244a351a19a6772868d10b} 
+\index{T\+Rex@{T\+Rex}!is\+Grounded@{is\+Grounded}}
+\index{is\+Grounded@{is\+Grounded}!T\+Rex@{T\+Rex}}
+\subsubsection{\texorpdfstring{is\+Grounded}{isGrounded}}
+{\footnotesize\ttfamily bool T\+Rex.\+is\+Grounded}
+
+$<$is\+Grounded$>$ Attribute is\+Grounded berfungsi untuk mencek apakah \hyperlink{class_t_rex}{T\+Rex} menempel dengan ground atau tidak. $<$/is\+Grounded$>$ \hypertarget{class_t_rex_ad3cb47a8543233f79fa0506bf4ab9bf9}{}\label{class_t_rex_ad3cb47a8543233f79fa0506bf4ab9bf9} 
+\index{T\+Rex@{T\+Rex}!jump\+Force@{jump\+Force}}
+\index{jump\+Force@{jump\+Force}!T\+Rex@{T\+Rex}}
+\subsubsection{\texorpdfstring{jump\+Force}{jumpForce}}
+{\footnotesize\ttfamily float T\+Rex.\+jump\+Force}
+
+$<$jump\+Force$>$ Attribute jump\+Force berfungsi untuk mengatur kekuatan loncat \hyperlink{class_t_rex}{T\+Rex}. $<$/jump\+Force$>$ \hypertarget{class_t_rex_ac2c1c5682d54b9a34e81a87db7232133}{}\label{class_t_rex_ac2c1c5682d54b9a34e81a87db7232133} 
+\index{T\+Rex@{T\+Rex}!move\+Speed@{move\+Speed}}
+\index{move\+Speed@{move\+Speed}!T\+Rex@{T\+Rex}}
+\subsubsection{\texorpdfstring{move\+Speed}{moveSpeed}}
+{\footnotesize\ttfamily float T\+Rex.\+move\+Speed}
+
+$<$move\+Speed$>$ Attribute move\+Speed berfungsi untuk mengatur kecepatan gerak \hyperlink{class_t_rex}{T\+Rex} $<$/move\+Speed$>$ \hypertarget{class_t_rex_a40c401b1a7d0fd1eddd6947f42da7bb8}{}\label{class_t_rex_a40c401b1a7d0fd1eddd6947f42da7bb8} 
+\index{T\+Rex@{T\+Rex}!my\+Collider@{my\+Collider}}
+\index{my\+Collider@{my\+Collider}!T\+Rex@{T\+Rex}}
+\subsubsection{\texorpdfstring{my\+Collider}{myCollider}}
+{\footnotesize\ttfamily Collider2D T\+Rex.\+my\+Collider\hspace{0.3cm}{\ttfamily [private]}}
+
+$<$my\+Collider$>$ Attribute yang berfungsi untuk menangani kasus-\/kasus dimana \hyperlink{class_t_rex}{T\+Rex} akan menabrak suatu obstacle. $<$/my\+Collider$>$ \hypertarget{class_t_rex_afe1565632a661b2b0141b23ff2c26494}{}\label{class_t_rex_afe1565632a661b2b0141b23ff2c26494} 
+\index{T\+Rex@{T\+Rex}!t\+Rex\+Rigid\+Body@{t\+Rex\+Rigid\+Body}}
+\index{t\+Rex\+Rigid\+Body@{t\+Rex\+Rigid\+Body}!T\+Rex@{T\+Rex}}
+\subsubsection{\texorpdfstring{t\+Rex\+Rigid\+Body}{tRexRigidBody}}
+{\footnotesize\ttfamily Rigidbody2D T\+Rex.\+t\+Rex\+Rigid\+Body\hspace{0.3cm}{\ttfamily [private]}}
+
+$<$trex\+Rigid\+Body$>$ Attribute trex\+Rigid\+Body berfungsi untuk membuat suatu object memiliki berat dan berpengaruh terhadap gravitasi. $<$/trex\+Rigid\+Body$>$ \hypertarget{class_t_rex_a91eb9e9165522f0f231a8e34f56d5919}{}\label{class_t_rex_a91eb9e9165522f0f231a8e34f56d5919} 
+\index{T\+Rex@{T\+Rex}!what\+Is\+Ground@{what\+Is\+Ground}}
+\index{what\+Is\+Ground@{what\+Is\+Ground}!T\+Rex@{T\+Rex}}
+\subsubsection{\texorpdfstring{what\+Is\+Ground}{whatIsGround}}
+{\footnotesize\ttfamily Layer\+Mask T\+Rex.\+what\+Is\+Ground}
+
+$<$what\+Is\+Ground$>$ Attribute yang berisi layer yang berfungsi untuk memberikan informasi apakah \hyperlink{class_t_rex}{T\+Rex} berada di ground atau tidak yang berfungsi untuk menangani \hyperlink{class_t_rex}{T\+Rex} agar tidak dapat melakukan dua kali loncatan. $<$/what\+Is\+Ground$>$ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Kuliah -\/ temporary/\+Semester 3/\+A\+D\+B\+O/\+Tugas Besar/\+T-\/\+Rex Final/assets/\+Scripts/T\+Rex.\+cs\end{DoxyCompactItemize}

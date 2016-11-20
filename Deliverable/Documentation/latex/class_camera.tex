@@ -1,0 +1,120 @@
+\hypertarget{class_camera}{}\section{Camera Class Reference}
+\label{class_camera}\index{Camera@{Camera}}
+Inheritance diagram for Camera\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_camera}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Transform \hyperlink{class_camera_acfd163e2a143a6b425494de9e86c5e00}{Box}
+\item 
+G\+U\+I\+Style \hyperlink{class_camera_afaadb7e35bf0918a0abcb53e73a2c565}{style}
+\item 
+float \hyperlink{class_camera_a8b771a0c2cb6e4fd4b3213a87e0f1a88}{score\+Counter} =0.\+0f
+\item 
+int \hyperlink{class_camera_abf86e03ac82c531858df39468f8e190b}{score}
+\item 
+int \hyperlink{class_camera_a91a3b4274da61a63a00782824cf5542e}{high\+Score}
+\item 
+float \hyperlink{class_camera_a9afbcb25512024bd94c4abc84c85d651}{speed} = 7f
+\item 
+Audio\+Source \hyperlink{class_camera_a265abd887260923d3b565aed0688cda7}{audi100}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_camera_a6dd760883224d50af4d916ca57a26370}{Start} ()
+\item 
+void \hyperlink{class_camera_a0dd18d8bd55c82e18a9ef12b036eedab}{Update} ()
+\item 
+void \hyperlink{class_camera_a59fc70f1cd765b02d2858e2fe51d2013}{On\+G\+UI} ()
+\item 
+void \hyperlink{class_camera_a15e8198aec6c455bfc5016d64152a92c}{Get\+High\+Score} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+$<$\+Camera$>$ Kelas Cam\+Runner berfungsi untuk membuat camera bergerak maju secara terus menerus hingga game berakhir. $<$/\+Camera$>$ 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_camera_a15e8198aec6c455bfc5016d64152a92c}{}\label{class_camera_a15e8198aec6c455bfc5016d64152a92c} 
+\index{Camera@{Camera}!Get\+High\+Score@{Get\+High\+Score}}
+\index{Get\+High\+Score@{Get\+High\+Score}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{Get\+High\+Score()}{GetHighScore()}}
+{\footnotesize\ttfamily void Camera.\+Get\+High\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$<$get\+High\+Score$>$ method untuk menentukan score dan highscore. $<$/get\+High\+Score$>$ \hypertarget{class_camera_a59fc70f1cd765b02d2858e2fe51d2013}{}\label{class_camera_a59fc70f1cd765b02d2858e2fe51d2013} 
+\index{Camera@{Camera}!On\+G\+UI@{On\+G\+UI}}
+\index{On\+G\+UI@{On\+G\+UI}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{On\+G\+U\+I()}{OnGUI()}}
+{\footnotesize\ttfamily void Camera.\+On\+G\+UI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$<$on\+G\+U\+I$>$ Method yang berfungsi untuk mengeluarkan highscore dan score ke layar. $<$/on\+G\+U\+I$>$ \hypertarget{class_camera_a6dd760883224d50af4d916ca57a26370}{}\label{class_camera_a6dd760883224d50af4d916ca57a26370} 
+\index{Camera@{Camera}!Start@{Start}}
+\index{Start@{Start}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Camera.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$<$\+Start$>$ Method start berfungsi untuk melakukan inisialisasi pertama pada saat kelas ini dipanggil. $<$/\+Start$>$ \hypertarget{class_camera_a0dd18d8bd55c82e18a9ef12b036eedab}{}\label{class_camera_a0dd18d8bd55c82e18a9ef12b036eedab} 
+\index{Camera@{Camera}!Update@{Update}}
+\index{Update@{Update}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Camera.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$<$\+Update$>$ Method update berfungsi untuk menangani kasus-\/kasus disaat terjadi perubahan frame pada saat game sedang berjalan. $<$/\+Update$>$ 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_camera_a265abd887260923d3b565aed0688cda7}{}\label{class_camera_a265abd887260923d3b565aed0688cda7} 
+\index{Camera@{Camera}!audi100@{audi100}}
+\index{audi100@{audi100}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{audi100}{audi100}}
+{\footnotesize\ttfamily Audio\+Source Camera.\+audi100}
+
+$<$audi100$>$ Attribute audi100 berfungsi untuk menyimpan suara. $<$/audi100$>$ \hypertarget{class_camera_acfd163e2a143a6b425494de9e86c5e00}{}\label{class_camera_acfd163e2a143a6b425494de9e86c5e00} 
+\index{Camera@{Camera}!Box@{Box}}
+\index{Box@{Box}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{Box}{Box}}
+{\footnotesize\ttfamily Transform Camera.\+Box}
+
+$<$\+Box$>$ Attribute yang berfungsi untuk menyimpan nilai box. $<$/\+Box$>$ \hypertarget{class_camera_a91a3b4274da61a63a00782824cf5542e}{}\label{class_camera_a91a3b4274da61a63a00782824cf5542e} 
+\index{Camera@{Camera}!high\+Score@{high\+Score}}
+\index{high\+Score@{high\+Score}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{high\+Score}{highScore}}
+{\footnotesize\ttfamily int Camera.\+high\+Score}
+
+$<$high\+Score$>$ Attribute hi berfungsi untuk menyimpan score tertinggi. $<$/high\+Score$>$ \hypertarget{class_camera_abf86e03ac82c531858df39468f8e190b}{}\label{class_camera_abf86e03ac82c531858df39468f8e190b} 
+\index{Camera@{Camera}!score@{score}}
+\index{score@{score}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{score}{score}}
+{\footnotesize\ttfamily int Camera.\+score}
+
+$<$score$>$ Attribute score berfungsi untuk menyimpan score pemain. $<$/score$>$ \hypertarget{class_camera_a8b771a0c2cb6e4fd4b3213a87e0f1a88}{}\label{class_camera_a8b771a0c2cb6e4fd4b3213a87e0f1a88} 
+\index{Camera@{Camera}!score\+Counter@{score\+Counter}}
+\index{score\+Counter@{score\+Counter}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{score\+Counter}{scoreCounter}}
+{\footnotesize\ttfamily float Camera.\+score\+Counter =0.\+0f}
+
+$<$score\+Counter$>$ Attribute score\+Counter berfungsi untuk menaikan score pemain seiring dengan pergerakan \hyperlink{class_t_rex}{T\+Rex} $<$/score\+Counter$>$ \hypertarget{class_camera_a9afbcb25512024bd94c4abc84c85d651}{}\label{class_camera_a9afbcb25512024bd94c4abc84c85d651} 
+\index{Camera@{Camera}!speed@{speed}}
+\index{speed@{speed}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{speed}{speed}}
+{\footnotesize\ttfamily float Camera.\+speed = 7f}
+
+
+
+
+
+\hypertarget{class_camera_afaadb7e35bf0918a0abcb53e73a2c565}{}\label{class_camera_afaadb7e35bf0918a0abcb53e73a2c565} 
+\index{Camera@{Camera}!style@{style}}
+\index{style@{style}!Camera@{Camera}}
+\subsubsection{\texorpdfstring{style}{style}}
+{\footnotesize\ttfamily G\+U\+I\+Style Camera.\+style}
+
+$<$style$>$ Attribute yang berfungsi untuk menangani G\+UI $<$/style$>$ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Kuliah -\/ temporary/\+Semester 3/\+A\+D\+B\+O/\+Tugas Besar/\+T-\/\+Rex Final/assets/\+Scripts/Camera.\+cs\end{DoxyCompactItemize}

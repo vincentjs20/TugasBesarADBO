@@ -1,0 +1,84 @@
+\hypertarget{class_obstacles}{}\section{Obstacles Class Reference}
+\label{class_obstacles}\index{Obstacles@{Obstacles}}
+Inheritance diagram for Obstacles\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_obstacles}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{[}$\,$\mbox{]} \hyperlink{class_obstacles_af33a9b1d17f969192cf1c0c5357827c9}{challenge}
+\item 
+Transform \hyperlink{class_obstacles_ad66e2e7a0d3fbd65343001ad795f8625}{campos}
+\item 
+\hyperlink{class_camera}{Camera} \hyperlink{class_obstacles_aedd2984958638233b3dcc79fe81b0c29}{cam}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_obstacles_a32cfaa5f6c916ff526398a7a42dc8928}{Start} ()
+\item 
+void \hyperlink{class_obstacles_a1c654788f161aa4b2057201f35b41b9b}{Update} ()
+\item 
+void \hyperlink{class_obstacles_adabe54fa108d13e6200892eb8019a126}{Destroy\+Obstacle} ()
+\item 
+void \hyperlink{class_obstacles_aa7b4a059d29fce38f79a38e735621698}{Obstacle\+Maker} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+$<$\+Obstacles$>$ Kelas ini merupakan kelas untuk membangkitkan obstacle dan pterodactyl dalam permainan T-\/\+Rex Runner. $<$/\+Obstacle$>$ 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_obstacles_adabe54fa108d13e6200892eb8019a126}{}\label{class_obstacles_adabe54fa108d13e6200892eb8019a126} 
+\index{Obstacles@{Obstacles}!Destroy\+Obstacle@{Destroy\+Obstacle}}
+\index{Destroy\+Obstacle@{Destroy\+Obstacle}!Obstacles@{Obstacles}}
+\subsubsection{\texorpdfstring{Destroy\+Obstacle()}{DestroyObstacle()}}
+{\footnotesize\ttfamily void Obstacles.\+Destroy\+Obstacle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$<$\+Destroy\+Obstacle$>$ method untuk menghancurkan obstacle yang sudah dilewati agar tidak memakan banyak memori. $<$/\+Destroy\+Obstacle$>$ \hypertarget{class_obstacles_aa7b4a059d29fce38f79a38e735621698}{}\label{class_obstacles_aa7b4a059d29fce38f79a38e735621698} 
+\index{Obstacles@{Obstacles}!Obstacle\+Maker@{Obstacle\+Maker}}
+\index{Obstacle\+Maker@{Obstacle\+Maker}!Obstacles@{Obstacles}}
+\subsubsection{\texorpdfstring{Obstacle\+Maker()}{ObstacleMaker()}}
+{\footnotesize\ttfamily void Obstacles.\+Obstacle\+Maker (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$<$\+Obstacle\+Maker$>$ Method untuk membuat obstacle untuk dilewati T-\/rex. $<$/\+Obstacle\+Maker$>$ \hypertarget{class_obstacles_a32cfaa5f6c916ff526398a7a42dc8928}{}\label{class_obstacles_a32cfaa5f6c916ff526398a7a42dc8928} 
+\index{Obstacles@{Obstacles}!Start@{Start}}
+\index{Start@{Start}!Obstacles@{Obstacles}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Obstacles.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$<$\+Start$>$ Method start berfungsi untuk melakukan inisialisasi pertama pada saat kelas ini dipanggil. $<$/\+Start$>$ \hypertarget{class_obstacles_a1c654788f161aa4b2057201f35b41b9b}{}\label{class_obstacles_a1c654788f161aa4b2057201f35b41b9b} 
+\index{Obstacles@{Obstacles}!Update@{Update}}
+\index{Update@{Update}!Obstacles@{Obstacles}}
+\subsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Obstacles.\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$<$\+Update$>$ Method update berfungsi untuk menangani kasus-\/kasus disaat terjadi perubahan frame pada saat game sedang berjalan. $<$/\+Update$>$ 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_obstacles_aedd2984958638233b3dcc79fe81b0c29}{}\label{class_obstacles_aedd2984958638233b3dcc79fe81b0c29} 
+\index{Obstacles@{Obstacles}!cam@{cam}}
+\index{cam@{cam}!Obstacles@{Obstacles}}
+\subsubsection{\texorpdfstring{cam}{cam}}
+{\footnotesize\ttfamily \hyperlink{class_camera}{Camera} Obstacles.\+cam}
+
+$<$cam$>$ Attribute yang berfungsi sebagai kamera. $<$/cam$>$ \hypertarget{class_obstacles_ad66e2e7a0d3fbd65343001ad795f8625}{}\label{class_obstacles_ad66e2e7a0d3fbd65343001ad795f8625} 
+\index{Obstacles@{Obstacles}!campos@{campos}}
+\index{campos@{campos}!Obstacles@{Obstacles}}
+\subsubsection{\texorpdfstring{campos}{campos}}
+{\footnotesize\ttfamily Transform Obstacles.\+campos}
+
+$<$campos$>$ Attribute yang berfungsi untuk memberitahu posisi dari kamera $<$/campos$>$ \hypertarget{class_obstacles_af33a9b1d17f969192cf1c0c5357827c9}{}\label{class_obstacles_af33a9b1d17f969192cf1c0c5357827c9} 
+\index{Obstacles@{Obstacles}!challenge@{challenge}}
+\index{challenge@{challenge}!Obstacles@{Obstacles}}
+\subsubsection{\texorpdfstring{challenge}{challenge}}
+{\footnotesize\ttfamily Game\+Object \mbox{[}$\,$\mbox{]} Obstacles.\+challenge}
+
+$<$challenge$>$ atribut obstacle dari T-\/rex game berupa pohon-\/pohon yang disimpan dalam bentuk array. $<$/challenge$>$ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Kuliah -\/ temporary/\+Semester 3/\+A\+D\+B\+O/\+Tugas Besar/\+T-\/\+Rex Final/assets/\+Scripts/Obstacles.\+cs\end{DoxyCompactItemize}

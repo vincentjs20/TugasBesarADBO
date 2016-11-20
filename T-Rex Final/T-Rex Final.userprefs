@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="assets\Scripts\Camera.cs">
+    <Files>
+      <File FileName="assets\Scripts\Start.cs" Line="1" Column="1" />
+      <File FileName="assets\Scripts\GameOver.cs" Line="1" Column="1" />
+      <File FileName="assets\Scripts\TRex.cs" Line="1" Column="1" />
+      <File FileName="assets\Scripts\Camera.cs" Line="88" Column="45" />
+      <File FileName="assets\Scripts\Obstacles.cs" Line="1" Column="1" />
+      <File FileName="assets\Scripts\Background.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/glennreysan/Desktop/T-Rex Final/assets/Scripts/Camera.cs" line="89" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
